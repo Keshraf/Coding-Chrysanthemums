@@ -1,5 +1,13 @@
+import Heading from "../components/Heading";
+import ResourceList from "../components/ResourceList";
+import WebData from "../data/WebData";
 const WebDev = () => {
-  return <h1>WebDev</h1>;
+  return (
+    <>
+      <Heading>Web Resources</Heading>
+      <ResourceList info={WebData()} />
+    </>
+  );
 };
 
 export default WebDev;

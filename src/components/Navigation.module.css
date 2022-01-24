@@ -1,0 +1,55 @@
+.container {
+  /* Specific */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10px;
+  width: 100px;
+  height: 800px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+li {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.outerIconHome:hover {
+  background-color: #c2e0f4;
+}
+
+.outerIconML:hover {
+  background-color: #cfc2cf;
+}
+
+.outerIconDSA:hover {
+  background-color: #fad4d7;
+}
+
+.outerIconWeb:hover {
+  background-color: #baebe1;
+}
+
+.outerIconGit:hover {
+  background-color: #bfbfbf;
+}

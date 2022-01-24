@@ -1,5 +1,14 @@
+import Heading from "../components/Heading";
+import DSAData from "../data/DSAData";
+import ResourceList from "../components/ResourceList";
+
 const DSA = () => {
-  return <h1>DSA</h1>;
+  return (
+    <>
+      <Heading>DSA Resources</Heading>
+      <ResourceList info={DSAData()} />
+    </>
+  );
 };
 
 export default DSA;

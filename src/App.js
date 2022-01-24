@@ -9,21 +9,23 @@ import Navigation from "./components/Navigation";
 function App() {
   return (
     <BrowserRouter>
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/machine-learning" element={<ML />} />
-        <Route path="/data-structures" element={<DSA />} />
-        <Route path="/web-dev" element={<WebDev />} />
-        <Route
-          path="*"
-          element={
-            <main style={{ padding: "1rem" }}>
-              <p>There's nothing here!</p>
-            </main>
-          }
-        />
-      </Routes>
+      <div className="App">
+        <Navigation className="navBar" />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/machine-learning" element={<ML />} />
+          <Route path="/data-structures" element={<DSA />} />
+          <Route path="/web-dev" element={<WebDev />} />
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>There's nothing here!</p>
+              </main>
+            }
+          />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }

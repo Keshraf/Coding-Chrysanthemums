@@ -1,0 +1,17 @@
+.button {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(221, 94, 137, 0.5) 65.1%,
+    rgba(247, 187, 151, 0.5) 112.59%
+  );
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 30px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+}
