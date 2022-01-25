@@ -11,6 +11,7 @@ const ResourceList = (props) => {
             author={data.author}
             type={data.type}
             key={data.id}
+            link={data.link}
           />
         );
       })}
